@@ -132,37 +132,49 @@ public class main {
 //			return sum;
 //		}
 //		
-		int a[] = new int[5];
+//		int a[] = new int[5];
+//		
+//		int[] b = {1,2};
+//		try {
+//			//System.out.println(av(5,a));
+//			//av(20, a);
+//			System.out.println(a[6]);
+//			System.out.println(5/0);
+//		} catch (ArithmeticException e) {
+//			
+//			System.out.println("Error aya hy");
+//			System.out.println(e.getLocalizedMessage());
+//			// TODO: handle exception
+//		}
+//		catch (ArrayIndexOutOfBoundsException e)
+//		{
+//			System.out.println("Array choti hy");
+//		}
+//		
+//		
+//		
+//		
+//	}
+//	
+//	
+//	static int av(int z,int x)
+//	{
+//		return z+x;
+//	}
+//	
+	
 		
-		int[] b = {1,2};
-		try {
-			//System.out.println(av(5,a));
-			//av(20, a);
-			System.out.println(a[6]);
-			System.out.println(5/0);
-		} catch (ArithmeticException e) {
-			
-			System.out.println("Error aya hy");
-			System.out.println(e.getLocalizedMessage());
-			// TODO: handle exception
-		}
-		catch (ArrayIndexOutOfBoundsException e)
+		String[] fruit = {"Banana","Apple","Annar", "Gava"};
+		
+		for (String i : fruit)
 		{
-			System.out.println("Array choti hy");
+			System.out.println("Fruit Name is "+i);
 		}
 		
 		
 		
 		
 	}
-	
-	
-	static int av(int z,int x)
-	{
-		return z+x;
-	}
-	
-	
 }
 
 
